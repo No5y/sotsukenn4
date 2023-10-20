@@ -1,0 +1,115 @@
+/**************** RESET *************/
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/************* CONTAINER *****************/
+
+#container{
+  width: 84%;
+  margin: auto;
+}
+
+/************* HEADER *****************/
+
+header {
+  padding: 40px;
+  background: #333;
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+}
+
+#slideContainer {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+#slideContainer img {
+  width: 100%;
+  height: auto;
+}
+
+header h1{
+  text-align: center;
+  color: white;
+}
+
+/************* MAIN (NAV / ARTICLE / ASIDE) *****************/
+
+main{
+  display: flex;
+  flex-direction: row;
+}
+
+/** NAVIGATION **/
+
+nav {
+  flex:1;
+  padding: 40px;
+  background: #DDD;
+}
+
+nav ul {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+nav ul li {
+  padding: 0.5rem;
+  background: #333;
+}
+
+nav a {
+  color: white;
+}
+
+/** ARTICLE **/
+
+article{
+  flex:3;
+  padding: 3rem;
+  background: #EEE;
+}
+
+article section{
+  margin-bottom: 3rem;
+}
+
+article img{
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.bodytext {
+  font-size: 1rem;
+  margin-bottom: 1rem;;
+}
+
+.caption {
+  font-size: 0.7rem;
+}
+
+
+/** ASIDE **/
+
+aside{
+  flex:1;
+  padding: 40px;
+  background: #DDD;
+}
+
+
+/************* FOOTER *****************/
+
+footer {
+  grid-area: AreaE;
+  padding: 40px;
+  text-align: center;
+  background: #999;
+  color: white;
+}
+
