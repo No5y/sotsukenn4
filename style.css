@@ -10,7 +10,7 @@
 /************* CONTAINER *****************/
 
 #container{
-  width: 84%;
+  width: 95%;
   margin: auto;
 }
 
@@ -18,12 +18,12 @@
 
 header {
   padding: 40px;
-  background: #333;
+  background: #DFE7F5;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
 #slideContainer {
-  width: 90%;
+  width: 100%;
   margin: 2rem auto;
 }
 
@@ -49,7 +49,7 @@ main{
 nav {
   flex:1;
   padding: 40px;
-  background: #DDD;
+  background: #f0f8ff;
 }
 
 nav ul {
@@ -59,7 +59,7 @@ nav ul {
 
 nav ul li {
   padding: 0.5rem;
-  background: #333;
+  background: #b0c4de;
 }
 
 nav a {
@@ -71,7 +71,7 @@ nav a {
 article{
   flex:3;
   padding: 3rem;
-  background: #EEE;
+  background: #ffffff;
 }
 
 article section{
@@ -93,13 +93,22 @@ article img{
   font-size: 0.7rem;
 }
 
+.hr1 {
+  position: relative;
+	height: 3px;
+	border-width: 0;
+	background-color: #00bcd4;
+	background-image: -webkit-linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+	background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+}
+
 
 /** ASIDE **/
 
 aside{
   flex:1;
-  padding: 40px;
-  background: #DDD;
+  padding: 10px;
+  background: #ffffff;
 }
 
 
@@ -112,4 +121,3 @@ footer {
   background: #999;
   color: white;
 }
-
