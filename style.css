@@ -75,7 +75,9 @@ article{
 }
 
 article section{
-  margin-bottom: 3rem;
+  border-top: 3px solid #888;
+  padding-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 article img{
@@ -118,6 +120,6 @@ footer {
   grid-area: AreaE;
   padding: 40px;
   text-align: center;
-  background: #999;
+  background: #;
   color: white;
 }
